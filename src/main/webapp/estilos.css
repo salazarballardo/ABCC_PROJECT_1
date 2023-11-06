@@ -1,0 +1,107 @@
+@charset "ISO-8859-1";
+body{        
+    background: url(Imagenes/Fondo.png) no-repeat center center fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+#container_form{
+    background-color: white;
+    margin: 50px auto;   
+    padding: 50px auto;
+	
+    height: 620px;
+    width: 790px;
+    border :5px solid #FFFFFF;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px #888888;	
+}
+
+input[type=text], select{
+  width: 95%;
+  margin-right: 5px;
+  padding: 12px 12px 12px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: horizontal;
+}
+
+input[type=button]{
+	width: 95%;
+	margin: 2px 2px 2px 2px;
+	padding: 2px 2px 2px 2px;
+}
+
+input[type=date] {
+  margin: 12px;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 12px;
+  display: inline-block;
+}
+
+/* Floating column for labels: 25% width */
+.col-15 {
+  float: left;
+  width: 15%;
+  margin-top: 6px;
+}
+
+/* Floating column for labels: 20% width */
+.col-20 {
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+}
+
+/* Floating column for labels: 20% width */
+.col-23 {
+  float: left;
+  width: 23%;
+  padding-left: 12px;
+  margin-right: 4px;
+  margin-left: 5px;
+  margin-top: 6px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 30% width */
+.col-30 {
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 35% width */
+.col-35 {
+  float: left;
+  width: 35%;
+  margin-top: 6px;
+  margin-right: 12px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
